@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"nodemon node_server/index.js\" \"cd flask_server && python index.py\""
+    "dev": "concurrently \"node node_server/index.js\" \"cd flask_server && python index.py\""
   },
   "keywords": [],
   "author": "",
@@ -16,7 +16,7 @@
     "concurrently": "^8.2.2",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.4.1"

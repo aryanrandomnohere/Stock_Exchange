@@ -17,4 +17,4 @@ app.register_blueprint(news_route)
 app.register_error_handler(Exception, handle_error)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port)
